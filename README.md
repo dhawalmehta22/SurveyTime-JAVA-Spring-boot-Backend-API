@@ -1,8 +1,10 @@
 # Survey Time
 
+- Java Spring-boot application
 - In memory *__H2__* database used.
 - Restfull API's for Creating survey, Taking survey, Getting results of a survey.
-- 
+- Api Testing through PostMan
+- Heroku Hosting  Link==>> <a href="surveytime.herokuapp.com">Link</a>
 
 ## Functionalities
 
