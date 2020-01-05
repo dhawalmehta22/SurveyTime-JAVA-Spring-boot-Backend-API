@@ -4,6 +4,7 @@
 - In memory *__H2__* database used.
 - Restfull API's for Creating survey, Taking survey, Getting results of a survey.
 - Api Testing through PostMan
+- Api's Comsuming JSON
 - Heroku Hosting  Link==>> <a href="surveytime.herokuapp.com">Link</a>
 
 ## Functionalities
@@ -24,3 +25,4 @@
 | 2 | Get One Survey | `localhost:8080/survey{id}` | **GET** | `id`: integer id of survey | **NONE** |
 | 3 | Get All Survey | `localhost:8080/survey/` | **GET** | **NONE** | **NONE** |
 | 4 | Get Result of Survey | `localhost:8080/survey{id}` | **GET** | `id`: integer id of survey | **NONE** |
+| 5 | Taking a Survey | `localhost:8080/survey/response/{id}	` | **GET** | `id`: integer id of survey | <ul>Array of Result<li>`id`: Integer id of Question</li><li>`Answer`: Boolean response of the question <ul></ul></li></ul> |
